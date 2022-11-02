@@ -21,6 +21,10 @@ const Services = () => {
                 services.map(service => <ServiceCard key={service._id} service ={service}></ServiceCard>)
             }
         </div>
+
+        <div className='mt-10 mb-20 text-center'>
+  <button className="btn btn-outline btn-secondary">More Services</button>
+  </div>
     </div>
   )
 }

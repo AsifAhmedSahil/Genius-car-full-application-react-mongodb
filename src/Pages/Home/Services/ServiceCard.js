@@ -12,6 +12,8 @@ const ServiceCard = ({service}) => {
       <button className="btn btn-primary">Buy Now</button>
     </div>
   </div>
+
+  
 </div>
   )
 }
